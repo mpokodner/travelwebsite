@@ -188,7 +188,9 @@ body {
 
 .btn-secondary-custom {
   background-color: var(--sand-beige);
-  border: 1px solid #ddd;
+  border: 1px solid var(--basque-red);
+  text-decoration: none;
+  text-align: center;
   color: var(--dark-gray);
   padding: 10px 25px;
   border-radius: 20px;
@@ -251,24 +253,6 @@ body {
   position: relative;
 }
 
-.play-button {
-  width: 80px;
-  height: 80px;
-  background-color: var(--basque-red);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 2rem;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.play-button:hover {
-  transform: scale(1.1);
-}
-
 /* Cuisine Section */
 .cuisine-card {
   border: none;
@@ -276,7 +260,7 @@ body {
   overflow: hidden;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
-  height: 200px;
+  height: 230px;
 }
 
 .cuisine-image {
