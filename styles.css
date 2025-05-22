@@ -112,6 +112,7 @@ body {
 .btn-primary-custom {
   background-color: var(--basque-red);
   border: none;
+  color: white;
   padding: 15px 40px;
   font-size: 1.1rem;
   font-weight: bold;
@@ -294,34 +295,6 @@ body {
 
 .cuisine-image.michelin {
   background: linear-gradient(45deg, var(--basque-green), #00b851);
-}
-
-/* Newsletter Section */
-.newsletter-section {
-  background: linear-gradient(135deg, var(--ocean-blue), #2980b9);
-  padding: 4rem 0;
-  color: white;
-}
-
-.newsletter-form {
-  max-width: 500px;
-  margin: 0 auto;
-}
-
-.form-control-custom {
-  border: none;
-  padding: 15px 20px;
-  border-radius: 25px;
-  font-size: 1rem;
-}
-
-.btn-newsletter {
-  background-color: var(--basque-red);
-  border: none;
-  padding: 15px 30px;
-  border-radius: 25px;
-  font-weight: bold;
-  margin-left: 10px;
 }
 
 /* Footer */
