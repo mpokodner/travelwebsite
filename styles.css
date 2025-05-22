@@ -191,10 +191,10 @@ body {
   border: 1px solid var(--basque-red);
   text-decoration: none;
   text-align: center;
-  color: var(--dark-gray);
+  color: var(--basque-red);
   padding: 10px 25px;
   border-radius: 20px;
-  font-weight: 500;
+  font-weight: bold;
   transition: all 0.3s ease;
 }
 
@@ -216,9 +216,13 @@ body {
   overflow: hidden;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
-
+#culture-text {
+  padding-left: 10rem;
+}
 .culture-image {
   height: 300px;
+  overflow: hidden;
+  width: 40vw;
   background: linear-gradient(45deg, var(--basque-green), #00b851);
   display: flex;
   align-items: center;
