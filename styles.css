@@ -392,12 +392,18 @@ body {
 .table-section {
   padding: 5rem 0;
   background-color: #f8f9fa;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .table-responsive {
   border-radius: 15px;
-  overflow: hidden;
+  overflow-x: auto;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .basque-tourism-table {
